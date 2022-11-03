@@ -1,0 +1,261 @@
+/*inicio de los header*/
+.demas {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #3b3b3bcb;
+}
+
+.demas-1 {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+.demas-5 {
+    background-image: url(../imagenes/soporte-bicicleta-taller.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.inicio {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 48px;
+    background-color: black;
+    align-items: center;
+}
+
+header nav ul a{
+    text-decoration: none;
+    color:white;
+    padding-left: 15px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    height: 48px;
+}
+/*fin de los header*/
+
+/*inicio de los main*/
+@media only screen and (min-width: 501px) {
+    .menu-1 {
+        padding: 1px;
+        background-image: url(../imagenes/ciclistas-2.jpg);
+        background-repeat: no-repeat;
+        background-color: #3b3b3bcb;
+    }
+}
+/* .menu-1 {
+    padding: 1px;
+    background-image: url(../imagenes/ciclistas-2.jpg);
+    background-repeat: no-repeat;
+    background-color: #3b3b3bcb;
+} */
+
+@media only screen and (max-width: 500px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .menu-1 {
+        background-color: rgb(245, 245, 245);
+    }
+    .logo-nombre {
+        color: rgb(0, 0, 0);
+        background-image: url(../imagenes/ciclistas-2-copia.jpeg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 208px;
+    }
+}
+
+.menu-4 h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 59px;
+}
+
+.titulo-Nosotros {
+    color: rgb(0, 0, 0);
+}
+
+.menu-sobrenosotros {
+    padding: 1px;
+    height: 687px;
+
+    /*
+    background-image: url(../imagenes/fondo-eltallerbikes.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    */
+    
+    
+    /* background-image: url(../imagenes/soporte-bicicleta-taller.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #3b3b3bcb; */
+}
+
+/*fin de los main*/
+
+.sobre-nosotros {
+    display: flex;
+    justify-content: flex-end;  
+
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.562);
+    margin: 150px 20px 120px 64.5%;
+    /* margin-left: 64.5%;
+    margin-right: 20px; */
+    padding-right: 20px;
+    border-radius: 20px;
+    height: 0;
+}
+
+.logo-nombre {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+@media only screen and (max-width: 500px){
+    .logo-nombre {
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+}
+
+.about-inicio{
+    padding-top: 105px;
+    padding-left: 20px;
+    width: 400px;
+    height: 300px;
+}
+
+@media only screen and (max-width: 500px) {
+    .about-inicio {
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*inicio de bicicletas*/
+.Raleigh-1 {
+    padding-left: 20px;
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    .Raleigh-1 {
+        padding-left: 20px;
+        color: rgb(0, 0, 0);
+    }
+}
+
+.about-bici-inicio {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    .about-bici-inicio {
+        color: black;
+        padding-bottom: 50px;
+    }
+}
+
+#titulo-bickerton {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.bikerton {
+    width: 100%;
+    height: 100%;
+
+}
+
+.raleigh-7 {
+    width: 100%;
+    height: 100%;
+}
+
+
+.raleigh-classic {
+    width: 640px;
+    height: 540px;
+}
+
+.python-classic {
+    width: 640px;
+    height: 426px;
+}
+
+.Venzo-Primal {
+    width: 640px;
+    height: 426px;
+}
+
+.tern {
+    width: 640px;
+    height: 426px;
+}
+
+.rembrandt {
+    width: 640px;
+    height: 500px;
+}
+/*fin de bicicletas*/
+
+/*inicio about us*/
+.sobre-nosotros {
+    padding-bottom: 310px;
+}
+/*fin about us*/
+
+
+/*inicio footer*/
+footer {
+    display: flex;
+    background-color: #3b3b3bcb;
+    margin-top: 0%;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes {
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.suscripcion {
+    color: white;
+}
+
+#suscripcion {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+#ubicacion {
+    padding-right: 20px;
+}
+
+/*fin footer*/
